@@ -1,0 +1,171 @@
+@media (max-width: 1440px) {
+    .vector1 {
+        display: none;
+    }
+
+    .vector2 {
+        display: none;
+    }
+
+    .box-right {
+        display: none;
+    }
+
+    .retang1 {
+        padding-bottom: 100px;
+    }
+
+    .pontilhado {
+        display: none;
+    }
+
+    .img, .img-2 {
+        display: none;
+    }
+
+    .etapas {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 60px auto;
+    }
+
+    .etapa1, .etapa2, .etapa3 {
+        position: static;
+        display: inline-block;
+    }
+
+    .etapas {
+        width: max-content;
+    }
+
+    .etapa1 {
+        width: max-content;
+    }
+
+    .etapa1 h3 {
+        margin: 5px 0px;
+        text-align: left;
+    }
+
+    .etapa1 p {
+        margin-left: 0;
+    }
+
+    .etapa1 .ph3, .etapa2 .ph3, .etapa3 .ph3 {
+        left: initial;
+    }
+
+    .title-auxiliar {
+        margin: 0;
+    }
+    .etapa2 {
+        display: block;
+    }
+    .etapa2 p{
+        position: static;
+    }
+
+    #h3-desenvlayout {
+        position: static;
+        text-align: left;
+        margin: 5px 0px;
+    }
+
+    .happy1, .happy2, .happy3 {
+        position: static;
+        margin: 0;
+        width: 25px;
+    }
+
+    .happy2 {
+        position: static;
+        width: 25px;
+    }
+
+    .etapa3 h3 {
+        margin-bottom: 10px;
+        position: static;
+    }
+
+    .etapa3 p {
+        margin: 0;
+        position: static;
+    }
+
+    .etapa3, .etapa2 {
+        text-align: left;
+    }
+
+    .etapa1 .ph3 {
+        width: 100%;
+    }
+    .ph3 {
+        width: 100%;
+    }
+
+    .todasEtapas {
+        text-align: left;
+        width: 350px;
+    }
+
+    #h3-letscode {
+        margin: 5px 0px;
+    }
+    
+    .arroba {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 1850px) {
+    .img, .img-2 {
+        opacity: 0;
+    }
+
+    .arroba {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 1000px) {
+    #celular {
+        display: block;
+        margin: 30px auto;
+    }
+
+    .retang2 {
+        height: max-content;
+    }
+
+    .form-button {
+        margin: auto;
+        display: block;
+    }
+
+    .rodape {
+        flex: 1 1 400px;
+        flex-wrap: wrap;
+    }
+
+    .cards {
+        margin: 15px;
+    }
+}
+
+@media (max-width: 550px) {
+    .retang1 {
+        padding: 30px;
+    }
+
+    .menu .item:nth-child(1) {
+        display: none;
+    }
+    .menu .item:nth-child(2) {
+        display: none;
+    }
+    .menu .item:nth-child(3) {
+        display: none;
+    }
+}
