@@ -155,9 +155,6 @@
 }
 
 @media (max-width: 550px) {
-    .retang1 {
-        padding: 30px;
-    }
 
     .menu .item:nth-child(1) {
         display: none;

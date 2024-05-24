@@ -84,6 +84,16 @@ h2 span {
     justify-content: start; */
 }
 
+.box-left h2 {
+  font-size: 30px;
+
+}
+
+.box-left {
+  padding: 20px;
+}
+
+
 .contact-us {
   font-size: 1rem;
   background: #1090cb;
@@ -428,11 +438,13 @@ h2 span {
   font-family: Poppins;
   font-size: 16px;
 }
+
 #celular {
   color: #787878;
   font-family: Poppins;
   font-size: 16px;
 }
+
 .form-contato {
   display: flex;
   flex: 1 1 370px;
@@ -526,4 +538,8 @@ footer {
 .line-gray2 {
   border-bottom: 1px solid #c7c7c7;
   margin-top: 2.5rem;
+}
+
+input {
+  width: 265px;
 }
