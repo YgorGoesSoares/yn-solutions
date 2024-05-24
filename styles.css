@@ -2,6 +2,7 @@ body {
   margin: 0;
   position: relative;
   font-family: Poppins;
+  scroll-behavior: smooth;
 }
 
 .top {
@@ -34,6 +35,11 @@ body {
   font-size: 1rem;
   position: relative;
   max-height: 1.5625rem;
+  transition: color 0.3s;
+}
+
+.item:hover {
+  color: #1090cb;
 }
 
 .contato {
@@ -43,6 +49,11 @@ body {
   color: white;
   border-radius: 0.4375rem;
   padding: 0.625rem;
+  transition: color 0.3s;
+}
+
+.contato:hover {
+  color: #08d3bb;
 }
 
 .retang1 {
@@ -221,6 +232,10 @@ h2 span {
   margin-bottom: 1%;
 }
 
+.hidden {
+  display: none;
+}
+
 .etapas {
   display: flex;
   justify-content: center;
@@ -242,6 +257,9 @@ h2 span {
 
 .img {
   margin-left: 700px;
+}
+
+.imgBordaLeft {
   border-left: 1px solid #e2e2e2;
   padding-left: 210px;
 }
